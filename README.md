@@ -1,53 +1,26 @@
-<h1 align="center">
-  <br>
-  <a target="_blank" href="https://evryn.github.io/vue-modern-resume/">
-    <img src="src/assets/logo.png" alt="Markdownify">
-  </a>
-  <br>
-  Vue Modern Resume
-  <br>
-</h1>
+Prise en main de différentes technologie tels que : Vuex, Docker, unit test
 
-<h4 align="center">
-  🚀 See yourself:
-  <a href="https://evryn.github.io/vue-modern-resume/">
-     Demo
-  </a>
-</h4>
+## But
 
-*NOTE: All personal contents will be removed very soon on next release. Don't worry about them.*
+Crée mon CV en anglais avec le framework Vue JS (Vuex) en développant une programmation propre à base de composants.
 
-## What is Vue Modern Resume?
-Vue Modern Resume is basically a simple (yet easy to setup) resume template based on <a href="https://vuejs.org/">Vue.js</a> framework and <a href="https://vuetifyjs.com/">Vuetify</a> UI toolkit.
+Prendre en main et se familiariser avec le framework Vue JS, les tests unitaires et Docker.
 
-## Preview
-See the [raw demo](https://evryn.github.io/vue-modern-resume/) or my own [portfolio](https://amirreza.in) based-on Vue Modern Resume.
+## Comment tester ??
+
+1. Cloner le repo
+
+2. Assurer vous que Docker fonctionne sur votre machine
+
+3. Lancer le script "script_run_docker.sh" (il va consrtuire l'image et lancer un containers utilisant le port 8080)
+
+4. Visualiser le résultat sur http://127.0.0.1:8080/
+
+5. Supprimer le containers en lancer le script "script_stop_remove_containers.sh"
 
 
+## Références
 
-## How to use
-
-1. Clone this repository.
-```
-git clone https://github.com/evryn/vue-modern-resume
-```
-
-2. Go to the cloned directory (e.g. `cd vue-modern-resume`).
-
-3. Run `npm install`.
-
-4. Customize your resume
-
-5. Preview resume with `npm serve`.
-
-6. Build it with `npm build`.
-
-## Contribution
-Feel free to add your own templates, language supports, bug fixes or improvements. Any kind of help is appreciated! If you make any kind of changes to an existing template, please commit them as a new template.
-
-## License
-Code is licensed under the [MIT License](LICENSE).
-
-# See Also
-* [ByteGate](https://bytegate.ir/) (our blog)
-* [تبدیل PDF به ورد](http://delix.ir/) (our sponsored service)
+Base du modèle CV 		: https://github.com/evryn/vue-modern-resume
+Utilisation de Docker 	: https://fr.vuejs.org/v2/cookbook/dockerize-vuejs-app.html
+Ajoute de test unitaire : https://github.com/lilyrae/vue-tests
