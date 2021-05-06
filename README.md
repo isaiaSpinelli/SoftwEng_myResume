@@ -16,7 +16,7 @@ Prendre en main et se familiariser avec le framework Vue JS, les tests unitaires
 
 4. Visualiser le résultat sur http://127.0.0.1:8080/
 
-5. Supprimer le containers en lancer le script "script_stop_remove_containers.sh"
+5. Supprimer le containers en lançant le script "script_stop_remove_containers.sh"
 
 
 ## Références
