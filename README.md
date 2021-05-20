@@ -8,14 +8,15 @@ Prendre en main et se familiariser avec le framework Vue JS, les tests unitaires
 
 ## Comment tester ?
 
-1. Cloner le repo 
-2. Assurer vous que Docker fonctionne sur votre machine
+1. Clonez le repo 
+2. Entrez dans le dossier (cd SoftwEng_myResume)
+3. Assurez-vous que Docker fonctionne sur votre machine (Exemple : docker ps)
 
 A partir de là, il est possible de lancer et visualiser mon CV ou lancer le test unitaire. Ci-dessous vous pouvez voir les marches à suivre respectives.
 
 ### Lancer et visualiser 
 
-Afin de lancer mon projet et de visualiser mon CV en anglais, voici les étapes  à effectuer :
+Afin de lancer mon projet et de visualiser mon CV en anglais, voici les étapes à effectuer :
 
 1. Lancer le script "script_run_docker.sh" (il va construire l'image et lancer un containers utilisant le port 8080) (./script_run_docker.sh)
 2. Visualiser le résultat sur http://127.0.0.1:8080/
@@ -29,7 +30,7 @@ Le run ne tourne pas avec Docker. Le serveru PhantomJS n'est pas accessible pour
 
 2. Exécutez la commande : **npm install**        (pour mettre à jour les dépendances)
 
-3. Exécutez la commande : **npm run unit**    (pour exécuter le test unitaire)
+3. Exécutez la commande : **npm run unit**       (pour exécuter le test unitaire)
 
    
 
