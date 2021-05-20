@@ -25,7 +25,8 @@ Afin de lancer mon projet et de visualiser mon CV en anglais, voici les étapes 
 
 Le run ne tourne pas avec Docker. Le serveru PhantomJS n'est pas accessible pour une raison inconnue. Il est cependant possible de le faire tourner en natif. Pour ce faire, suivez ces étapes :
 
-1. Ajoutez < "vue-loader": "^14.2.2 > dans le fichier "package.json"
+1. Ajoutez "**,
+   	"vue-loader": "^14.2.2"** " dans le fichier "package.json"
 
 2. Exécutez la commande : **npm install**        (pour mettre à jour les dépendances)
 
