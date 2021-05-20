@@ -23,10 +23,15 @@ Afin de lancer mon projet et de visualiser mon CV en anglais, voici les étapes 
 
 ### Lancer le test unitaire
 
-1. Ne fonctionne pas avec Docker.... (en natif, utilisez la commande : **npm run unit**)
-   - Si vous souhaitez tester le test unitaire en native, faite en sorte que le projet soit prêt (npm install)
+Le run ne tourne pas avec Docker. Le serveru PhantomJS n'est pas accessible pour une raison inconnue. Il est cependant possible de le faire tourner en natif. Pour ce faire, suivez ces étapes :
 
+1. Ajoutez < "vue-loader": "^14.2.2 > dans le fichier "package.json"
 
+2. Exécutez la commande : **npm install**        (pour mettre à jour les dépendances)
+
+3. Exécutez la commande : **npm run unit**    (pour exécuter le test unitaire)
+
+   
 
 ## Références
 
