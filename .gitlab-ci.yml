@@ -12,8 +12,7 @@ test-real:
   stage: test
   script:
     - echo "This job tests something, but takes more time than test-job1."
-    - npm install -g jest
-    - 'jest --verbose ./tests'
+    - 'jest --ci --reporters=default --reporters=jest-junit'
 
 deploy-prod:
   stage: deploy
