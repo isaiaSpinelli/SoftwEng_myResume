@@ -22,7 +22,7 @@ Afin de lancer mon projet et de visualiser mon CV en anglais, voici les étapes 
 2. Visualiser le résultat sur http://127.0.0.1:8080/
 3. Supprimer le containers en lançant le script "script_stop_remove_containers.sh"
 
-### Lancer le test unitaire
+### Lancer les tests unitaires
 
 
 
