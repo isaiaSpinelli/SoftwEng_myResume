@@ -1,12 +1,32 @@
+image: node:latest
+
+build-job:
+  stage: build
+  script:
+    - echo "Hello, $GITLAB_USER_LOGIN!"
+
+
 test-job1:
-  image: node:latest
   stage: test
   script:
+    - echo "This job install dependencies for unit tests"
     - npm install -g jest
     - npm install jest-junit
+
+test-job2:
+  stage: test
+  script:
+    - echo "This job lauche & valid unit tests !"
     - 'jest --ci --reporters=default --reporters=jest-junit'
   artifacts:
     when: always
     reports:
       junit:
         - junit.xml
+
+
+
+deploy-prod:
+  stage: deploy
+  script:
+    - echo "This job deploys something from the $CI_COMMIT_BRANCH branch."
