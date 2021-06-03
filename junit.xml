@@ -1,0 +1,13 @@
+PASS tests/mul.test.js
+  √ 1 * 1 = 1 (8 ms)
+  √ 2 * 0 = 0 (2 ms)
+  √ -2 * -1 = 2 (3 ms)
+  ○ skipped 2 * -1 = -2
+
+PASS tests/addition.test.js
+  √ 1 + 1 = 2 (9 ms)
+
+Test Suites: 2 passed, 2 total
+Tests:       1 skipped, 4 passed, 5 total
+Snapshots:   0 total
+Time:        1.779 s, estimated 4 s
