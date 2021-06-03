@@ -4,16 +4,12 @@ build-job:
   stage: build
   script:
     - echo "Hello, $GITLAB_USER_LOGIN!"
-
-
-test-job1:
-  stage: test
-  script:
     - echo "This job install dependencies for unit tests"
     - npm install -g jest
     - npm install jest-junit
 
-test-job2:
+
+test-job:
   stage: test
   script:
     - echo "This job lauche & valid unit tests !"
