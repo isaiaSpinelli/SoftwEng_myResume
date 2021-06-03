@@ -4,7 +4,11 @@ Prise en main de différentes technologie tels que : Vuex, Docker, unit test
 
 Créer mon CV en anglais avec le framework Vue JS (Vuex) en développant une programmation propre à base de composants.
 
-Prendre en main et se familiariser avec le framework Vue JS, les tests unitaires et Docker.
+Prendre en main et se familiariser avec le framework Vue JS, les tests unitaires, Docker et l'intégration continue.
+
+L'intégration continue (CI) a été mis en place avec Gitlab. Le fichier ".gitlab-ci.yml" permet de structurer les différentes étapes à effectuer. Nous avons mis en place 3 Jobs : Le build, le test et le déploiement. Dans notre cas, nous avons réalisé les différentes étapes afin de lancer nos tests unitaires à chaque nouveau commit. Il est possible de voir les différentes tests effectués sous l'onglet : CI/CD -> Pipelines. Grâce à un artefact, nous créons un fichier "junit.xml" qui contient les résultats des tests. Cela permet aussi de voir directement sur Gitlab les différentes tests et les résultats. Voici un exemple : https://gitlab.forge.hefr.ch/isaia.spinelli/SoftwEng_myResume/-/pipelines/28557/test_report
+
+
 
 ## Comment tester ?
 
