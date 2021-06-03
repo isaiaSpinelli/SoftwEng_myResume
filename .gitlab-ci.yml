@@ -14,10 +14,10 @@ test-real:
     - echo "This job tests something, but takes more time than test-job1."
     - 'jest --ci --reporters=default --reporters=jest-junit --verbose ./tests'
   artifacts:
-  when: always
-  reports:
-    junit:
-      - junit.xml
+    when: always
+    reports:
+        junit:
+        - junit.xml
 
 deploy-prod:
   stage: deploy
