@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "test": "jest --verbose ./tests",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "lint": "vue-cli-service lint"
   },
@@ -13,7 +14,8 @@
     "leader-line": "^1.0.5",
     "vue": "^2.6.10",
     "vue-content-loading": "^1.6.0",
-    "vuetify": "^1.5.5"
+    "vuetify": "^1.5.5",
+    "jest": "^27.0.1"
   },
   "devDependencies": {
     "@mdi/font": "^3.6.95",
