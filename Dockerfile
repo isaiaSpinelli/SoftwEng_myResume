@@ -18,5 +18,9 @@ COPY . .
 # construit l'app pour la production en la minifiant
 RUN npm run build
 
+# lance les tests unitaires
+RUN npm run test
+
+
 EXPOSE 8080
 CMD [ "http-server", "dist" ]
